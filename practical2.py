@@ -1,4 +1,6 @@
-                 ###             DICTIONARY           ###
+  ####----- Tisha Patel 20CE106-----####
+  
+  ###    DICTIONARY           ###
 
 # Write a Python script to check whether a given key already exists in a dictionary.
 def checkKey(dict, key):
@@ -28,19 +30,19 @@ def returnSum(myDict):
         list.append(myDict[i])
     final = sum(list)
     return final
-dict = {'a': 100, 'b': 200, 'c': 300}
+dict = {'a': 10, 'b': 20, 'c': 30}
 print("Sum :", returnSum(dict))
 
 #Write a Python script to add a key to a dictionary.
-d = {0:10, 1:20}
+d = {0:11, 12:22}
 print(d)
-d.update({2:30})
+d.update({28:33})
 print(d)
 
 #Write a Python script to concatenate following dictionaries to create a new one.
-dic1={1:10, 2:20}
-dic2={3:30, 4:40}
-dic3={5:50,6:60}
+dic1={1:11, 2:22}
+dic2={3:33, 4:44}
+dic3={5:55,6:66}
 dic4 = {}
 for d in (dic1, dic2, dic3): dic4.update(d)
 print(dic4)
@@ -48,13 +50,13 @@ print(dic4)
 ###         TUPLE           ###
 
 #Write a Python program to create a tuple with different data types.
-tuplex = ("tuple", False, 3.2, 1)
+tuplex = ("tuple", False, 3.3, 3)
 print(tuplex)
 
 #Write a Python program to create a tuple with numbers and print one item.
-tuplex = 5, 10, 15, 20, 25
+tuplex = 4, 8, 12, 16, 20
 print(tuplex)
-tuplex = 5,
+tuplex = 4,
 print(tuplex)
 
 #Write a Python program to add an item in a tuple.
@@ -70,12 +72,12 @@ def convertTuple(tup):
     for item in tup:
         str = str + item
     return str
-tuple = ('g', 'e', 'e', 'k', 's')
+tuple = ('t', 'i', 's', 'h', 'a')
 str = convertTuple(tuple)
 print(str)
 
 #Write a Python program to find the length of a tuple.
-tuplex = ('w3resource',)
+tuplex = ('patel',)
 print(len(tuplex))
 
 ###         SET           ###
@@ -87,7 +89,7 @@ print("\nAdd single element:")
 color_set.add("Red")
 print(color_set)
 print("\nAdd multiple items:")
-color_set.update(["Blue", "Green"])
+color_set.update(["Blue", "magenta"])
 print(color_set)
 color_set.clear()
 
